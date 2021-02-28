@@ -16,4 +16,81 @@ html { box-sizing: border-box; }
 
 body {
 	background-color: #bdc3c7;
+	color: white;
+
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+
+}
+
+.profil{
+	width: 300px;
+	background-color: #31363b;
+	position: relative;
+	padding-top: 180px;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.obsah, .hlavicka{
+	padding: 20px;
+}
+
+.foto{
+	width: 300px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.logo{
+	background-color: #b92e81;
+	border-radius: 50%;
+	position: absolute;
+	left: 215px;
+	top: 170px;
+}
+
+.odkazy{
+	padding-left: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+li{
+	text-transform: uppercase;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.portfolio{
+	display: block;
+	padding: 10px;
+	border-top: 1px solid #3f464d;
+	border-bottom: 1px solid #3f464d;
+}
+
+.facebook, .twitter{
+	display: inline-block;
+	width: 49%;
+	padding: 10px 0;
+	margin: 0;
+}
+
+.portfolio:hover{
+	background-color: #e74c3c;
+}
+
+.facebook:hover{
+	background-color: #3b5998;
+}
+
+.twitter:hover{
+	background-color: #1da1f2;
 }

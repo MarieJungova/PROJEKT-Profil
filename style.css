@@ -78,9 +78,14 @@ a {
 
 .facebook, .twitter{
 	display: inline-block;
-	width: 49%;
+	width: 50%;
 	padding: 10px 0;
 	margin: 0;
+
+}
+
+.facebook{
+	float: left;
 }
 
 .portfolio:hover{
